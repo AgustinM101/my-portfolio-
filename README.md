@@ -27,40 +27,6 @@ Este proyecto fue construido utilizando un stack moderno de desarrollo web:
 
 ---
 
-## 🚀 Cómo Ejecutar el Proyecto Localmente
-
-Si deseas clonar este repositorio y ejecutarlo en tu máquina local para ver el código o contribuir, sigue estos pasos:
-
-### Prerrequisitos
-
-Asegúrate de tener [Node.js](nodejs.org) instalado (versión recomendada 20+).
-
-### Pasos de Instalación
-
-1.  **Clona el repositorio:**
-    ```bash
-    git clone github.com
-    ```
-
-2.  **Navega a la carpeta del proyecto:**
-    ```bash
-    cd mi-portafolio
-    ```
-
-3.  **Instala las dependencias:**
-    ```bash
-    npm install
-    ```
-
-4.  **Inicia el servidor de desarrollo:**
-    ```bash
-    npm run dev
-    ```
-
-Abre tu navegador y visita `http://localhost:5173` (o el puerto que te indique Vite) para ver la aplicación funcionando.
-
----
-
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT.
