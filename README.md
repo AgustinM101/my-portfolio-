@@ -1,18 +1,73 @@
-# React + Vite
+# Mi Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Hola! Bienvenido al código fuente de mi sitio web de portafolio personal. Este proyecto muestra mis habilidades como desarrollador frontend y mis proyectos más destacados.
 
-Currently, two official plugins are available:
+Visita el sitio web en vivo aquí: [**https://tu-sitio-web-publicado.com**](https://tu-sitio-web-publicado.com) (Recuerda reemplazar este enlace cuando lo publiques).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Este proyecto fue construido utilizando un stack moderno de desarrollo web:
 
-Note: This will impact Vite dev & build performances.
+*   **React:** Biblioteca principal para la interfaz de usuario.
+*   **Vite:** Herramienta de *bundling* y entorno de desarrollo rápido.
+*   **Tailwind CSS:** Framework CSS *utility-first* para un diseño rápido y responsivo.
+*   **JavaScript (ES6+):** Lenguaje de programación principal.
+*   **Git & GitHub:** Control de versiones y alojamiento de código.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Características Principales
+
+*   **Diseño Responsivo:** Se adapta a dispositivos móviles, tablets y escritorios.
+*   **Modo Oscuro/Claro:** (Si lo implementas, si no, bórralo).
+*   **Sección de Proyectos:** Muestra tarjetas interactivas de mis trabajos anteriores.
+*   **Formulario de Contacto Funcional:** Permite a los visitantes enviarme mensajes directamente.
+
+---
+
+## 🚀 Cómo Ejecutar el Proyecto Localmente
+
+Si deseas clonar este repositorio y ejecutarlo en tu máquina local para ver el código o contribuir, sigue estos pasos:
+
+### Prerrequisitos
+
+Asegúrate de tener [Node.js](nodejs.org) instalado (versión recomendada 20+).
+
+### Pasos de Instalación
+
+1.  **Clona el repositorio:**
+    ```bash
+    git clone github.com
+    ```
+
+2.  **Navega a la carpeta del proyecto:**
+    ```bash
+    cd mi-portafolio
+    ```
+
+3.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
+
+4.  **Inicia el servidor de desarrollo:**
+    ```bash
+    npm run dev
+    ```
+
+Abre tu navegador y visita `http://localhost:5173` (o el puerto que te indique Vite) para ver la aplicación funcionando.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.
+
+---
+
+## 📬 Contacto
+
+Si tienes alguna pregunta o quieres colaborar, no dudes en contactarme a través de mi sitio web o mi correo electrónico: `tu.email@ejemplo.com`.
+
