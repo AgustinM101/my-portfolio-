@@ -2,7 +2,7 @@
 
 ¡Hola! Bienvenido al código fuente de mi sitio web de portafolio personal. Este proyecto muestra mis habilidades como desarrollador frontend y mis proyectos más destacados.
 
-Visita el sitio web en vivo aquí: [**https://tu-sitio-web-publicado.com**](https://tu-sitio-web-publicado.com) (Recuerda reemplazar este enlace cuando lo publiques).
+Visita el sitio web en vivo aquí:  (Recuerda reemplazar este enlace cuando lo publiques).
 
 ---
 
