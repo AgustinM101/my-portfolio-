@@ -1,0 +1,40 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-greeting {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.hero-title {
+  margin-top: 0.5rem;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.hero-title span {
+  color: #e10600;
+  text-shadow: 0 0 25px rgba(225, 6, 0, 0.45);
+}
+
+.hero-subtitle {
+  margin-top: 1.5rem;
+  max-width: 600px;
+  color: #cfcfcf;
+  font-size: 1rem;
+  line-height: 1.6;
+}
