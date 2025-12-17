@@ -1,18 +1,32 @@
 .app-bg {
-  min-height: 100vh;
-  background-image: url("https://res.cloudinary.com/dkv58dvqy/image/upload/v1765992928/d8d1b8ac7d29e2cb90018562f2511e9e_vszjff.jpg");
+  min-height: 300vh;
+  background-image: url("https://res.cloudinary.com/dkv58dvqy/image/upload/q_auto:best,f_auto,dpr_auto/w_2400/d8d1b8ac7d29e2cb90018562f2511e9e_vszjff.jpg");
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
-/* overlay global */
 .app-bg::before {
   content: "";
-  position: fixed;
+  position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.65);
   z-index: 0;
   pointer-events: none;
+}
+
+.app-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.app-bg > * {
+  position: relative;
+  z-index: 1;
 }
