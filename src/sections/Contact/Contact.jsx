@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./Contact.css";
 
 export default function Contact() {
@@ -23,27 +24,30 @@ export default function Contact() {
         <div className="contact-actions">
           <a
             href="mailto:agustinmasso.dev@gmail.com"
-            className="contact-btn primary"
+            className="contact-btn primary icon"
+            aria-label="Send Email"
           >
-            Send Email
+            <FaEnvelope />
           </a>
 
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/agustin-masso-b2a135241/"
             target="_blank"
             rel="noopener noreferrer"
-            className="contact-btn"
+            className="contact-btn icon"
+            aria-label="LinkedIn"
           >
-            LinkedIn
+            <FaLinkedin />
           </a>
 
           <a
-            href="https://github.com"
+            href="https://github.com/AgustinM101"
             target="_blank"
             rel="noopener noreferrer"
-            className="contact-btn"
+            className="contact-btn icon"
+            aria-label="GitHub"
           >
-            GitHub
+            <FaGithub />
           </a>
         </div>
       </motion.div>

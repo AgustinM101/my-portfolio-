@@ -33,12 +33,31 @@
 }
 
 .how-card {
+  position: relative;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 2.5rem 1.5rem;
+  padding: 1.5rem 1.5rem 2.5rem;
   border-radius: 16px;
-  text-align: left;
+  text-align: center;
   transition: transform 0.3s ease, border 0.3s ease;
+}
+
+/* ICONO */
+.how-icon {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #ff2d2d;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .how-card:hover {
@@ -53,7 +72,7 @@
 }
 
 .how-card h3 {
-  margin: 1rem 0 0.5rem;
+  margin: 1.2rem 0 0.6rem;
   color: #ffffff;
   font-size: 1.2rem;
 }
@@ -61,7 +80,9 @@
 .how-card p {
   color: #bfbfbf;
   font-size: 0.9rem;
-  line-height: 1.5;
+  line-height: 1.55;
+  max-width: 240px;
+  margin: 0 auto;
 }
 
 /* Responsive */
